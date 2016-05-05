@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sfk\\thinkextend\\": "src/thinkextend"
+            "thinkextend\\": "src/thinkextend"
         }
     },
     "repositories": {
