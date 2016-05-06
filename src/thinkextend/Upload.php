@@ -8,7 +8,7 @@
  * File: Upload.php
  */
 
-namespace shenfakuan\thinkextend;
+namespace thinkextend;
 
 
 class Upload

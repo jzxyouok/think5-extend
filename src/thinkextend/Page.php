@@ -9,7 +9,7 @@
 // | Author: 麦当苗儿 <zuojiazi@vip.qq.com> <http://www.zjzit.cn>
 // | Modify: 申法宽 <sfk@live.cn> <http://www.3uncle.com>
 // +----------------------------------------------------------------------
-namespace shenfakuan\thinkextend;
+namespace thinkextend;
 
 use think\Config;
 

@@ -10,7 +10,7 @@
 // | Modify: 申法宽 <sfk@live.cn> <http://www.3uncle.com>
 // +----------------------------------------------------------------------
 
-namespace shenfakuan\thinkextend;
+namespace thinkextend;
 
 /* 缩略图相关常量定义 */
 define('THINKIMAGE_THUMB_SCALING', 1); //常量，标识缩略图等比例缩放类型
@@ -55,7 +55,7 @@ class Image
     public static function init($type = 'Gd', $imgname = null)
     {
         /* 引入处理库，实例化图片处理对象 */
-        $class    = '\\shenfakuan\\thinkextend\\image\\driver\\' . ucwords($type);
+        $class    = '\\thinkextend\\image\\driver\\' . ucwords($type);
         self::$im = new $class($imgname);
         return self::$im;
     }

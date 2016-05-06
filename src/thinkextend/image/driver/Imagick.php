@@ -10,7 +10,7 @@
 // | Modify: 申法宽 <sfk@live.cn> <http://www.3uncle.com>
 // +----------------------------------------------------------------------
 
-namespace shenfakuan\thinkextend\image\driver;
+namespace thinkextend\image\driver;
 
 use think\Lang;
 
