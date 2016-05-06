@@ -55,7 +55,7 @@ class Image
     public static function init($type = 'Gd', $imgname = null)
     {
         /* 引入处理库，实例化图片处理对象 */
-        $class    = '\\org\\image\\driver\\' . ucwords($type);
+        $class    = '\\shenfakuan\\thinkextend\\image\\driver\\' . ucwords($type);
         self::$im = new $class($imgname);
         return self::$im;
     }
