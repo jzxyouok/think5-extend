@@ -11,7 +11,7 @@
 
 namespace thinkextend;
 
-use think\Paginator;
+use think\paginator\driver\Bootstrap;
 
 class Amazeui extends Bootstrap
 {
