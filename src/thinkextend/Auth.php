@@ -102,7 +102,7 @@ class Auth
 
         $user_groups = \think\Db::name($this->_config['AUTH_GROUP_ACCESS'] . ' a')
             ->where("a.uid='$uid' and g.status='1'")
-            ->join($this->_config['AUTH_GROUP'] . 'g' , "a.group_id=g.id")
+            ->join($this->_config['AUTH_GROUP'] . ' g' , "a.group_id=g.id")
             ->field('rules')->select();
 
         $groups[$uid] = $user_groups ?: array();
