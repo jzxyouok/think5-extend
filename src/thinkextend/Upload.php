@@ -8,6 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: 麦当苗儿 <zuojiazi@vip.qq.com> <http://www.zjzit.cn>
 // | Modify: 申法宽 <sfk@live.cn> <http://www.3uncle.com>
+// | Modify: noprom <tyee.noprom@qq.com> <http://www.huntdreams.com>
 // +----------------------------------------------------------------------
 namespace thinkextend;
 
@@ -43,7 +44,7 @@ class Upload
         // 检测文件是否存在回调，如果存在返回文件信息数组
         'callback'     => false,
         // 文件上传驱动e,
-        'driver'       => '',
+        'driver'       => 'Local',
         // 上传驱动配置
         'driverConfig' => [],
     ];
