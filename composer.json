@@ -1,10 +1,10 @@
 {
-    "name": "shenfakuan/thinkextend",
+    "name": "noprom/think-extend",
     "description": "thinkphp5 extend package",
     "authors": [
         {
-            "name": "申法宽",
-            "email": "sfk@live.cn"
+            "name": "noprom",
+            "email": "tyee.noprom@qq.com"
         }
     ],
     "require": {
