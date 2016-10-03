@@ -98,12 +98,14 @@ class Verify
         }
         // session 过期
         if (time() - $secode['verify_time'] > $this->expire) {
-            session($key, null);
+            Session::destroy();
+            //session($key, null);
             return false;
         }
 
         if ($this->authcode(strtoupper($code)) == $secode['verify_code']) {
-            $this->reset && session($key, null);
+            $this->reset && Session::destroy();
+            //$this->reset && session($key, null);
             return true;
         }
 
